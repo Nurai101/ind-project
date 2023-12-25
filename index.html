@@ -149,3 +149,88 @@
                 </tr>
             </table>
         </div>
+        <div class="main-container">
+            <form action="">
+                <div class="personal block">
+                    <h2>Оформить заказ</h2>
+                    <div class="row">
+                        <label for="name">Имя:</label>
+                        <input type="text" name="name" placeholder="Напишите свое имя..." required>
+                    </div>
+                    <div class="row">
+                        <label for="address">Адрес:</label>
+                        <input type="text" id="address" placeholder="Укажите адрес...">
+                    </div>
+                    <div class="row">
+                        <label for="email">E-mail:</label>
+                        <input type="email" placeholder="Напишите E-mail..." required>
+                    </div>
+                    <div class="row">
+                        <label for="grade">Количество:</label>
+                        <input type="number" id="grade" placeholder="0.." required min="1" max="5">
+                    </div>
+                    <div class="row">
+                        <label for="phone">Телефон:</label>
+                        <input type="tel" id="phone" value="+7">
+                    </div>
+    
+                </div>
+                <div class="gender block">
+                    <h2>Доставка</h2>
+                    <div class="row">
+                        <label for="male">Почта</label>
+                        <input type="radio" id="male" name="gender">
+                        <label for="female">Самовывоз</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="other">Такси</label>
+                        <input type="radio" id="other" name="gender">
+                    </div>
+                    <div class="row">
+                        <label for="date">Дата</label>
+                        <input type="date" id="date">
+                    </div>
+                </div>
+                <div class="education">
+                    <h2>Выберите нужные вам критерий</h2>
+                    <div class="row">
+                        <input type="checkbox" id="js">
+                        <label for="js">Турецский материал</label>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="react">
+                        <label for="react">Китайский материал</label>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="html">
+                        <label for="html">Ограниченный бюджет</label>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="css">
+                        <label for="css">Добавить свои элементы </label>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="python">
+                        <label for="python">Учавствовать в конкурсе покупателей</label>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="c">
+                        <label for="c">Не интересно</label>
+                    </div>
+                    <div class="row" >
+                        <label for="city">Ваш город:</label>
+                        <select name="" id="city">
+                            <option value="">Алматы</option>
+                            <option value="">Астана</option>
+                            <option value="">Караганда</option>
+                            <option value="">Шымкент</option>
+                            <option value="">Талдыкорган</option>
+                            <option value="">Павлодар</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="button block">
+                    <button type="submit">Submit</button>
+                    <button type="cancel">Cancel</button>
+                </div>
+            </form>
+            <div class="img-girl">
