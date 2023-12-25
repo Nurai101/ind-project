@@ -257,4 +257,111 @@ body{
     margin-bottom: 50px;
     background-color:rgb(211, 185, 152);
 
-  }
+  }th, td{
+    padding: 10px;
+}
+  
+  
+  .main-container {
+    width: 90%;
+    margin: auto;
+    background-color:rgb(192, 155, 76) !important;
+    padding: 60px 40px;
+    color: white;
+    margin-top: 95px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-girl{
+    width: 40%;
+}
+.row {
+    margin: 18px;
+    margin-left: 40px;
+}
+
+.personal label, label [for="edu"], label [for="date"] {
+    display: inline-block;
+    width: 200px;
+}
+
+button {
+    background-color: whitesmoke;
+    color: brown;
+    padding: 5px 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+button hover {
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    pad: 7px 10px;
+}
+
+input {
+    color: brown;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px -5px 20px -1px rgba(0, 0, 0, 0.75);
+}
+.footer-row {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-row {
+    margin: 10px;
+    color: rgb(79, 76, 76);
+}
+
+.follow-img {
+    position: absolute;
+    width: 100%;
+}
+
+.icons:hover {
+    background-color: rgba(0, 0, 0, 0.216);
+}
+
+#footer-section3 a {
+    text-decoration: none;
+    color:  #ffae00;
+}
+#footer-section3 a:hover {
+    text-decoration: underline;
+}
+.icons {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+.things-container h1{
+    margin-top: 20px;
+    padding: 50px;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: rgb(78, 74, 74);
+}
+form{
+    width: 50%;
+}
+.img-girl img{
+    width: 100%;
+    border-radius: 10px;
+
+}
