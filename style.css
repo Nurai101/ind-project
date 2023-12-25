@@ -365,3 +365,59 @@ form{
     border-radius: 10px;
 
 }
+@media screen and (max-width: 1080px){
+    .nav-links a{
+        font-size: 13px;
+    }
+    .fixed-top{
+        padding: 0 10px;
+    }
+    .things{
+        display: grid;
+        grid-template-columns: 25% 25%;
+        grid-template-rows: 50% 50%;
+        gap: 10px 100px;
+    
+    }
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+    }
+    header h2{
+        font-size: 30px;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    .logo.font-semibold{
+        font-size: 13px;
+    }
+    header button{
+        width: 28%;
+        padding: 9px;
+    }
+    .paper h3{
+        font-size: 25px;
+    }
+    .e{
+        font-size: 15px;
+    }
+    .paper img{
+        float: right;
+        padding: 10px;
+    }
+    th, td{
+        font-size: 13px;
+    }
+    .icons {
+        width: 20px;
+        height: 20px;
+    }
+    .footer-section1 p{
+        font-size: 8px;
+    }
+    .footer-section3{
+        font-size: 8px;
+    }
+}
