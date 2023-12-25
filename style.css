@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.logo {
+    color: #fed136;
+    text-decoration: none;
+}
+
+header {
+    padding: 150px 0;
+    color: #fff;
+    text-align: center;
+    background-image: url(https://www.advantour.com/img/kazakhstan/culture/kazakhstan-culture-yurt.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center ;
+    background-size: cover;
+}
+
+
+header h2 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 32px;
+}
+
+header h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-bottom: 64px;
+}
+
+header button {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #fed136;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+   
+}
+
+header button:hover {
+    background-color: #ddb830;
+    cursor: pointer;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #6c757d3c;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links li a:hover {
+    color: #fed136;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.things{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    margin: 60px;
+    
+}
+
+.things img{
+    width: 200px; 
+    height: 250px;
+    border-radius: 10px;
+    border: 5px solid rgba(255, 30, 0, 0.288);
+}
+
+
+
+img{
+    width: 15%;
+    margin-bottom: 20px; 
+   
+}
+
+.paper{
+    background-color:rgb(225, 186, 139);
+    height: 350px;
+}
+.paper h3{
+    padding-top: 20px;
+}
+
+.e{
+    width: 70%;
+    float: left;
+    clear: both;
+    margin-top: 50px;
+    margin-left: 30px;
+   
+}
+ h3 {
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 2rem;
+}
+
+
+body{
+    background-color: #c46047;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#one-three{
+    display: flex;
+    justify-content: space-around;
+}
+.one-three{
+    margin-top: 3%;
+   
+    
+}
+#two-three{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.two-three{
+    margin-top: 5%;
+}
+
+#shashbau{
+    width: 200px;
+}
+.shashbau{
+    position:relative ;
+    border: 1px solid white;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+}
+
+#pendant{
+     width: 200px;
+    
+ }
+.pendant{
+    position: relative;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+   
+    
+
+ }
+
+.section3{
+    background-color: #c7a06e;
+    padding-top: 20px;   
+}
+
+
+ .section3 table{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:rgb(211, 185, 152);
+
+  }
