@@ -17,9 +17,7 @@ p {
 section {
     display: block;
 }
-body {
-    line-height: 1;
-}
+
 ol,
 ul {
     list-style: none;
@@ -40,11 +38,7 @@ table {
     border-spacing: 0;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-}
+
 
 .container {
     max-width: 1140px;
